@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Setting Font Size</title>
+<style>
+/* Kaio Felipe Nink Cardoso */
+
+body{
+  font-size: 19px;
+}
+
+div + div{
+  font-size: 2em;
+}
+
+body > div > div {
+  font-size: 4em;
+}
+
+body > div >div > div {
+  font-size: 50%;
+}
+
+</style>
+</head>
+<body>
+/* esta fonte deve ter tamanho 19px */
+<div>Regular text</div>
+
+/* esta fonte deve ter o dobro de tamanho da fonte de cima */
+<div>2em text
+	/* esta fonte deve ter o quatro vezes o tamanho da fonte de cima */
+  <div>4em text
+		/* esta fonte deve ter a metade do tamanho da fonte de cima */
+    <div>2em again!</div>
+  </div>
+</div>
+</body>
+</html>
