@@ -1,0 +1,82 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(247, 251, 253);
+}
+
+.list-content, .table-content, .form-content{
+    padding-bottom: 15px;
+}
+
+.list-content ul li{
+    list-style-image: url("./outline_auto_stories_black.png");
+    list-style-type:none;
+}
+
+.table-content table{
+    font-size: 15px;
+    border-collapse: collapse;
+    align-items: center;
+    width: 660px;
+    height: 200px;
+    text-align: center;
+}
+
+.table-content table td, .table-content table th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table-content table thead{
+    background-color:#04AA6D;
+    
+}
+
+.table-content table tbody{
+    background-color: rgba(242, 255, 242, 0.712);
+}
+
+.table-content table tbody tr td:nth-child(1){
+    color: rgb(69, 119, 75);
+    font-weight: 600;
+}    
+
+.form-content{
+    padding-bottom: 0;
+}
+
+.form-content fieldset{
+    background-color: white;
+    width: auto;
+}
+
+.form-content fieldset div{
+display: flex;
+padding: 5px 0;
+}
+
+.form-content form{
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: fit-content;
+}
+
+.form-content form label{
+    width: 160px;
+}
+
+.form-content form #submit-btn{
+    margin-top: 10px;
+    max-width: fit-content;
+    align-items: flex-end;
+    color: white;
+    background-color: #04AA6D;
+    border-color: transparent;
+    height: 25px;
+    border-radius: 10%;
+}
+
+.form-content form #submit-btn:hover{
+    background-color: rgb(7, 207, 7);
+}
