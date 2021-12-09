@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./images/user-id_card.png" type="image/x-icon">
+    <title>Kaio Cardoso</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        
+        @media (min-width: 992px) {
+            #hobbies-content dl{
+            height: 88px!important;
+            display: flex;
+            align-items: center;
+            } 
+            #movies-card img, #series-card img{
+                width: 50%!important;
+            }
+        }
+        @media (min-width: 768px) {
+            #animes-card dl{
+            height: 120px;
+        } 
+        }
+        @media (max-width: 992px) {
+            #hobbies-content dl img{
+            width: 25%!important;
+            height: auto;
+            } 
+            #hobbies-content dl dd{
+                font-size: 20px!important;
+            }
+        }
+        
+    </style>
+</head>
+<body class="min-vw-25" style="background-color: ghostwhite;">
+    <a name="inicio"></a>
+    <div class="container ">
+        <h1>Kaio Felipe Nink Cardoso</h1>
+
+        <div class="row mb-lg-3">
+            <div class="col-12 col-lg-6 col-md-6 col-sm-12 text-center">
+                <img class="w-75 p-3 rounded-circle" src="./images/foto-perfil.jpeg" alt="Kaio Cardoso">
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 col-sm-12 text-center pt-lg-5">
+                <h3 class="fs-2">Sobre mim</h3>
+                <p class="fs-5 px-5 ">Atualmente sou um estudante na Universidade Federal do Mato Grosso - Campus Araguaia, onde faço o Bacharelado em Ciência da Computação. Além de estudar Programação Web, dedico meu tempo também para jogos e animes no geral.</p>
+            </div>
+        </div>
+        
+        <div class="row mb-lg-3">
+            <div class="col-12 col-lg-6 col-md-12 col-sm-12 pt-lg-5">
+                <h3>Publicações e Apresentações</h3>
+                <ul>
+                    <li><a class="text-decoration-none" href="https://www.nucleodoconhecimento.com.br/educacao/cinematica-com-o-modellus#_ftn3" target="_blank">
+                    O uso da modelagem computacional em funções de cinemática com o Modellus.</a> </li>
+                    <li>O uso da Modelagem Computacional para melhoria do ensino de Cinemática com o uso do software livre Modellus. (Apresentação de Trabalho/Seminário).</li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-6 col-md-12 col-sm-12 pt-lg-5">
+                <h3>Atividades Complementares</h3>
+                <ol>
+                    <li>O conhecimento Matemático produzido a partir da Computação em Nuvem.</li>
+                    <li>Introdução ao Processamento Digital de Imagens no MATLAB.</li>
+                    <li>Estudo da NR10 - Segurança em instalações e serviço em eletricidade</li>
+                </ol>
+            </div>
+            <div class="col-12 text-center border w-100">
+            
+                <h3>Competências</h3>
+                <table class="table table-striped table-bordered align-middle text-center">
+                    <thead>
+                        <tr>
+                            <th rowspan="2">Ferramenta</th>
+                            <th colspan="3">Nível
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>Básico</td>
+                            <td>Intermediário</td>
+                            <td>Avançado</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Pacote Office</td>
+                            <td></td>
+                            <td></td>
+                            <td><strong>X</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Design Gráfico (Figma e Photoshop)</td>
+                            <td></td>
+                            <td><strong>X</strong></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Linguagens de Programação (C, Python)</td>
+                            <td></td>
+                            <td><strong>X</strong></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>DesenvolvimentoWeb (HTML/CSS, Wordpress)</td>
+                            <td><strong>X</strong></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row mb-lg-3 border pt-3" id="hobbies-content">
+            <div class="col-12 col-md-6 col-lg-3 text-center" id="games-card">
+                <h3>Jogos</h3>
+                <dl class="row" id="skyrim-card">
+                    <dt class="col-12 col-lg-6 col-md-12 col-sm-12 pt-lg-2"><img src="./images/Skyrim-Logo.png" class="img-fluid w-75 " alt=""></dt>
+                    <dd class="col-12 col-lg-6 col-md-12 col-sm-12 pt-lg-2"><a href="https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/" target="_blank" class="text-decoration-none">The Elder Scrolls V: Skyrim</a></dd>
+                </dl>
+                <dl class="row" id="valorant-card">
+                    <dt class="col-12 col-lg-6 col-md-12 col-sm-12"><img src="./images/valorant-logo.png" class="img-fluid w-75" alt=""></dt>
+                    <dd class="col-12 col-lg-6 col-md-12 col-sm-12 pt-lg-4 pt-xl-4"><a href="https://playvalorant.com/pt-br/" target="_blank" class="text-decoration-none">Valorant</a></dd>
+                </dl>
+                <dl class="row" id="civilization-card">
+                    <dt class="col-12 col-lg-6 col-md-12 col-sm-12"><img src="./images/civilization-v-logo.png" class="img-fluid w-50" alt=""></dt>
+                    <dd class="col-12 col-lg-6 col-md-12 col-sm-12 pt-lg-2"><a href="https://store.steampowered.com/app/8930/Sid_Meiers_Civilization_V/" target="_blank" class="text-decoration-none">Sid Meier's Civilization V</a></dd>
+                </dl>
+                <dl class="row" id="hots-card">
+                    <dt class="col-12 col-lg-6 col-md-12 col-sm-12"><img src="./images/hots-logo.png" class="img-fluid w-75" alt=""></dt>
+                    <dd class="col-12 col-lg-6 col-md-12 col-sm-12 pt-lg-4"><a href="https://heroesofthestorm.com/pt-br/" target="_blank" class="text-decoration-none">Heroes of the Storm</a></dd>
+                </dl>
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-3 text-center" id="animes-card">
+                <h3>Animes</h3>
+                <dl class="row" id="onepiece-card">
+                    <dt class="col-12 col-lg-6 col-md-12 col-sm-12 pt-lg-3"><img src="./images/one-piece-logo.png" class="img-fluid w-75 " alt=""></dt>
+                    <dd class="col-12 col-lg-6 col-md-12 col-sm-12 pt-lg-3"><a href="https://myanimelist.net/anime/21/One_Piece" target="_blank" class="text-decoration-none">One Piece</a></dd>
+                </dl>
+                <dl class="row" id="tog-card">
+                    <dt class="col-12 col-lg-6 col-md-12 col-sm-12"><img src="./images/tower-of-God-Logo.png" class="img-fluid w-75" alt=""></dt>
+                    <dd class="col-12 col-lg-6 col-md-12 col-sm-12 pt-lg-3"><a href="https://myanimelist.net/anime/40221/Kami_no_Tou" target="_blank" class="text-decoration-none">Tower of God</a></dd>
+                </dl>
+                <dl class="row" id="plasticmem-card">
+                    <dt class="col-12 col-lg-6 col-md-12 col-sm-12"><img src="./images/plastic-memories-logo.png" class="img-fluid w-50" alt=""></dt>
+                    <dd class="col-12 col-lg-6 col-md-12 col-sm-12 pt-lg-2"><a href="https://myanimelist.net/anime/27775/Plastic_Memories" target="_blank" class="text-decoration-none">Plastic Memories</a></dd>
+                </dl>
+                <dl class="row" id="snk-card">
+                    <dt class="col-12 col-lg-6 col-md-12 col-sm-12"><img src="./images/shingeki-logo.png" class="img-fluid w-75" alt=""></dt>
+                    <dd class="col-12 col-lg-6 col-md-12 col-sm-12 pt-lg-4"><a href="https://myanimelist.net/anime/16498/Shingeki_no_Kyojin" target="_blank" class="text-decoration-none">Shingeki no Kyojin</a></dd>
+                </dl>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 text-center" id="movies-card">
+                <h3>Filmes</h3>
+                <dl class="row" id="wolfchildren-card">
+                    <dt class="col-12 col-lg-6 col-md-12 col-sm-12 pt-lg-3"><img src="./images/wolf-children-poster.jpg" class="img-fluid w-75 " alt=""></dt>
+                    <dd class="col-12 col-lg-6 col-md-12 col-sm-12 pt-lg-3"><a href="https://www.imdb.com/title/tt2140203/?ref_=nv_sr_srsg_0" target="_blank" class="text-decoration-none">Ookami Kodomo: Ame to Yuki</a></dd>
+                </dl>
+                <dl class="row" id="spiderman-card">
+                    <dt class="col-12 col-lg-6 col-md-12 col-sm-12"><img src="./images/Spide-Man_Poster.jpg" class="img-fluid w-75" alt=""></dt>
+                    <dd class="col-12 col-lg-6 col-md-12 col-sm-12 pt-lg-3"><a href="https://www.imdb.com/title/tt0145487/?ref_=nv_sr_srsg_3" target="_blank" class="text-decoration-none">Spider-Man</a></dd>
+                </dl>
+                <dl class="row" id="interstellar-card">
+                    <dt class="col-12 col-lg-6 col-md-12 col-sm-12"><img src="./images/interstellar-poster.jpg" class="img-fluid w-50" alt=""></dt>
+                    <dd class="col-12 col-lg-6 col-md-12 col-sm-12 pt-lg-2"><a href="https://www.imdb.com/title/tt0816692/?ref_=nv_sr_srsg_3" target="_blank" class="text-decoration-none">Interstellar</a></dd>
+                </dl>
+                <dl class="row" id="quietplace-card">
+                    <dt class="col-12 col-lg-6 col-md-12 col-sm-12"><img src="./images/a-quiet-place-poster.jpg" class="img-fluid w-75" alt=""></dt>
+                    <dd class="col-12 col-lg-6 col-md-12 col-sm-12 pt-lg-4"><a href="https://www.imdb.com/title/tt6644200/?ref_=nv_sr_srsg_3" target="_blank" class="text-decoration-none">A Quiet Place</a></dd>
+                </dl>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 text-center" id="series-card">
+                <h3>Séries</h3>
+                <dl class="row" id="wolfchildren-card">
+                    <dt class="col-12 col-lg-6 col-md-12 col-sm-12 pt-lg-3"><img src="./images/dark-netflix-poster.jpg" class="img-fluid w-75 " alt=""></dt>
+                    <dd class="col-12 col-lg-6 col-md-12 col-sm-12 pt-lg-3"><a href="https://www.imdb.com/title/tt5753856/?ref_=ttfc_fc_tt" target="_blank" class="text-decoration-none">Dark</a></dd>
+                </dl>
+                <dl class="row" id="spiderman-card">
+                    <dt class="col-12 col-lg-6 col-md-12 col-sm-12"><img src="./images/rick-and-morty-poster.jpg" class="img-fluid w-75" alt=""></dt>
+                    <dd class="col-12 col-lg-6 col-md-12 col-sm-12 pt-lg-3"><a href="https://www.imdb.com/title/tt2861424/?ref_=nv_sr_srsg_0" target="_blank" class="text-decoration-none">Rick and Morty</a></dd>
+                </dl>
+                <dl class="row" id="interstellar-card">
+                    <dt class="col-12 col-lg-6 col-md-12 col-sm-12"><img src="./images/vikings-poster.jpg" class="img-fluid w-50" alt=""></dt>
+                    <dd class="col-12 col-lg-6 col-md-12 col-sm-12 pt-lg-2"><a href="https://www.imdb.com/title/tt2306299/?ref_=nv_sr_srsg_0" target="_blank" class="text-decoration-none">Vikings</a></dd>
+                </dl>
+                <dl class="row" id="quietplace-card">
+                    <dt class="col-12 col-lg-6 col-md-12 col-sm-12"><img src="./images/westworld-poster.jpg" class="img-fluid w-75" alt=""></dt>
+                    <dd class="col-12 col-lg-6 col-md-12 col-sm-12 pt-lg-4"><a href="https://www.imdb.com/title/tt0475784/?ref_=nv_sr_srsg_0" target="_blank" class="text-decoration-none">Westworld</a></dd>
+            </div>
+            
+        </div>
+           
+        <div class="row mb-lg-3">
+            <div class="col">
+                <h3>Contato</h3>
+                <p>
+                    Kaio Felipe Nink Cardoso <br>
+                    Avenida Valdon Varjão, 6390. Barra do Garças - MT
+                    <br>
+                    Email: <a class="text-decoration-none" href="mailto:kaio.cardoso@sou.ufmt.br" style="color: black;">kaio.cardoso@sou.ufmt.br</a> 
+                    <br>
+                    <a class="text-decoration-none" href="http://lattes.cnpq.br/2634721904115823" target="_blank"> Currículo Lattes</a>
+                    <br>
+                    <a class="text-decoration-none" href="https://github.com/kaio-nink" target="_blank">Github</a>
+                    
+                </p>
+                </div>
+        </div>
+    </div>
+    <div class="container">
+        <footer class="py-3 my-4 text-center border-top pb-3 mt-3">
+          <a class="text-decoration-none" href="#inicio" >Voltar ao início</a>
+        </footer>
+      </div>
+    
+    
+</body>
+</html>
